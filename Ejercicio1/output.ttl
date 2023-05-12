@@ -1,0 +1,3563 @@
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix qudt: <https://qudt.org/2.1/vocab/unit> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix tree: <http://example.org/tree> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+tree:ParkTree a rdfs:Class .
+
+tree:StreetTree a rdfs:Class .
+
+tree:tree10485 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.38"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "20.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "237" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.604448"^^xsd:float ;
+    geo1:long "-5.854241"^^xsd:float .
+
+tree:tree10486 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Mature" ;
+    tree:diameter "0.9"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "20.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "238" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.604516"^^xsd:float ;
+    geo1:long "-5.854349"^^xsd:float .
+
+tree:tree10550 a dbr:Betula_ermanii,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "568" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.60583"^^xsd:float ;
+    geo1:long "-5.856859"^^xsd:float .
+
+tree:tree10597 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.43"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "7.0"^^xsd:float ;
+    tree:treeHeight "19.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "637" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.612064"^^xsd:float ;
+    geo1:long "-5.980316"^^xsd:float .
+
+tree:tree10598 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.5"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "7.0"^^xsd:float ;
+    tree:treeHeight "19.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "638" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.612105"^^xsd:float ;
+    geo1:long "-5.980402"^^xsd:float .
+
+tree:tree10670 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.67"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "7.0"^^xsd:float ;
+    tree:treeHeight "18.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "643" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.612213"^^xsd:float ;
+    geo1:long "-5.980619"^^xsd:float .
+
+tree:tree11491 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.28"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Bare Ground" ;
+    tree:treeTag "485" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.552752"^^xsd:float ;
+    geo1:long "-5.958388"^^xsd:float .
+
+tree:tree11588 a dbr:Betula_ermanii,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "10.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "516" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.604318"^^xsd:float ;
+    geo1:long "-5.856396"^^xsd:float .
+
+tree:tree11590 a dbr:Betula_ermanii,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.26"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "10.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "518" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.604365"^^xsd:float ;
+    geo1:long "-5.856099"^^xsd:float .
+
+tree:tree11638 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.2"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "27" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.558046"^^xsd:float ;
+    geo1:long "-5.983873"^^xsd:float .
+
+tree:tree11686 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.32"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "30" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.604118"^^xsd:float ;
+    geo1:long "-5.852152"^^xsd:float .
+
+tree:tree11687 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "31" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.604123"^^xsd:float ;
+    geo1:long "-5.852218"^^xsd:float .
+
+tree:tree11953 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.42"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "18.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "23" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.614121"^^xsd:float ;
+    geo1:long "-5.859181"^^xsd:float .
+
+tree:tree12514 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Other" ;
+    tree:treeTag "313" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.605813"^^xsd:float ;
+    geo1:long "-5.853119"^^xsd:float .
+
+tree:tree12515 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.16"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Other" ;
+    tree:treeTag "312" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.60579"^^xsd:float ;
+    geo1:long "-5.853123"^^xsd:float .
+
+tree:tree12516 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Other" ;
+    tree:treeTag "311" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.605788"^^xsd:float ;
+    geo1:long "-5.853063"^^xsd:float .
+
+tree:tree12573 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.27"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "18.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "28" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.600129"^^xsd:float ;
+    geo1:long "-5.969921"^^xsd:float .
+
+tree:tree12685 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Poor" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "11" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.599613"^^xsd:float ;
+    geo1:long "-5.97078"^^xsd:float .
+
+tree:tree12858 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.36"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "18.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "57" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.555953"^^xsd:float ;
+    geo1:long "-5.958055"^^xsd:float .
+
+tree:tree12987 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.37"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "770" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.550638"^^xsd:float ;
+    geo1:long "-5.957548"^^xsd:float .
+
+tree:tree13003 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Fair" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.35"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1211" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.542683"^^xsd:float ;
+    geo1:long "-5.9827"^^xsd:float .
+
+tree:tree13004 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Fair" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.42"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1212" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.542629"^^xsd:float ;
+    geo1:long "-5.98266"^^xsd:float .
+
+tree:tree13027 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.43"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "21.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "374" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.553545"^^xsd:float ;
+    geo1:long "-5.955714"^^xsd:float .
+
+tree:tree13661 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.4"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "1719" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.549035"^^xsd:float ;
+    geo1:long "-5.960703"^^xsd:float .
+
+tree:tree13662 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.6"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "1720" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.54908"^^xsd:float ;
+    geo1:long "-5.960809"^^xsd:float .
+
+tree:tree13664 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.38"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "1722" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.549253"^^xsd:float ;
+    geo1:long "-5.960746"^^xsd:float .
+
+tree:tree13687 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.22"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "2435" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.548909"^^xsd:float ;
+    geo1:long "-5.974654"^^xsd:float .
+
+tree:tree13688 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.37"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "2436" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.548938"^^xsd:float ;
+    geo1:long "-5.974622"^^xsd:float .
+
+tree:tree13689 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.29"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "2437" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.548965"^^xsd:float ;
+    geo1:long "-5.974542"^^xsd:float .
+
+tree:tree13960 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.64"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "1753" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.54892"^^xsd:float ;
+    geo1:long "-5.961363"^^xsd:float .
+
+tree:tree13961 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.42"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "1754" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.548943"^^xsd:float ;
+    geo1:long "-5.961417"^^xsd:float .
+
+tree:tree13984 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.49"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "17.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "1017" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.548869"^^xsd:float ;
+    geo1:long "-5.954993"^^xsd:float .
+
+tree:tree14529 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Good" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1422" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.551173"^^xsd:float ;
+    geo1:long "-5.96161"^^xsd:float .
+
+tree:tree14532 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.26"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1425" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.551102"^^xsd:float ;
+    geo1:long "-5.961781"^^xsd:float .
+
+tree:tree14533 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.26"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1426" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.551091"^^xsd:float ;
+    geo1:long "-5.961803"^^xsd:float .
+
+tree:tree14534 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1427" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.55111"^^xsd:float ;
+    geo1:long "-5.961818"^^xsd:float .
+
+tree:tree14546 a dbr:Robinia_pseudoacacia,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "False Acaia" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "5.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1443" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.550907"^^xsd:float ;
+    geo1:long "-5.961405"^^xsd:float .
+
+tree:tree14547 a dbr:Robinia_pseudoacacia,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "False Acaia" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "5.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1444" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.550901"^^xsd:float ;
+    geo1:long "-5.961374"^^xsd:float .
+
+tree:tree14625 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.3"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "2440" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.548915"^^xsd:float ;
+    geo1:long "-5.974469"^^xsd:float .
+
+tree:tree14626 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.27"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "2441" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.548884"^^xsd:float ;
+    geo1:long "-5.974557"^^xsd:float .
+
+tree:tree14627 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.35"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "2442" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.54884"^^xsd:float ;
+    geo1:long "-5.974426"^^xsd:float .
+
+tree:tree14628 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.4"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "2443" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.548819"^^xsd:float ;
+    geo1:long "-5.974371"^^xsd:float .
+
+tree:tree14629 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "2444" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.548908"^^xsd:float ;
+    geo1:long "-5.974339"^^xsd:float .
+
+tree:tree14647 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.41"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "2517" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.548665"^^xsd:float ;
+    geo1:long "-5.969618"^^xsd:float .
+
+tree:tree14918 a dbr:Betula_pendula,
+        tree:StreetTree ;
+    tree:age "Juvenile" ;
+    tree:condition "Fair" ;
+    tree:description "Select Standard" ;
+    tree:diameter "0.04"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "1.0"^^xsd:float ;
+    tree:treeHeight "5.0"^^xsd:float ;
+    tree:treeSurround "Paved Brick Paviour" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589806"^^xsd:float ;
+    geo1:long "-5.933929"^^xsd:float .
+
+tree:tree14962 a dbr:Betula_ermanii,
+        tree:StreetTree ;
+    tree:age "Semi-Mature" ;
+    tree:condition "N/A" ;
+    tree:description "Semi Mature" ;
+    tree:diameter "0.14"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "7.0"^^xsd:float ;
+    tree:treeSurround "Tarmac" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "N/A" ;
+    geo1:lat "54.616151"^^xsd:float ;
+    geo1:long "-5.925314"^^xsd:float .
+
+tree:tree15428 a dbr:Betula_pendula,
+        tree:StreetTree ;
+    tree:age "Juvenile" ;
+    tree:condition "Good" ;
+    tree:description "Select Standard" ;
+    tree:diameter "0.05"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "1.0"^^xsd:float ;
+    tree:treeHeight "5.0"^^xsd:float ;
+    tree:treeSurround "Paved Brick Paviour" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589652"^^xsd:float ;
+    geo1:long "-5.933925"^^xsd:float .
+
+tree:tree15430 a dbr:Betula_pendula,
+        tree:StreetTree ;
+    tree:age "Juvenile" ;
+    tree:condition "Good" ;
+    tree:description "Select Standard" ;
+    tree:diameter "0.07"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "1.0"^^xsd:float ;
+    tree:treeHeight "5.0"^^xsd:float ;
+    tree:treeSurround "Paved Brick Paviour" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.58976"^^xsd:float ;
+    geo1:long "-5.933951"^^xsd:float .
+
+tree:tree15501 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Good" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.41"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "18.0"^^xsd:float ;
+    tree:treeSurround "Bramble/Briars" ;
+    tree:treeTag "442" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.641358"^^xsd:float ;
+    geo1:long "-5.940987"^^xsd:float .
+
+tree:tree15819 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.51"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "352" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.638718"^^xsd:float ;
+    geo1:long "-5.944921"^^xsd:float .
+
+tree:tree15894 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Fair" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.24"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "2093" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588878"^^xsd:float ;
+    geo1:long "-5.874616"^^xsd:float .
+
+tree:tree15896 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Fair" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.32"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "7.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "2095" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.58879"^^xsd:float ;
+    geo1:long "-5.874492"^^xsd:float .
+
+tree:tree15899 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Fair" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2103" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588704"^^xsd:float ;
+    geo1:long "-5.874056"^^xsd:float .
+
+tree:tree15900 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Fair" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.21"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2102" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588718"^^xsd:float ;
+    geo1:long "-5.87403"^^xsd:float .
+
+tree:tree15901 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Fair" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.21"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2101" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588762"^^xsd:float ;
+    geo1:long "-5.874051"^^xsd:float .
+
+tree:tree15902 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Fair" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.15"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2104" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588736"^^xsd:float ;
+    geo1:long "-5.873991"^^xsd:float .
+
+tree:tree15908 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Fair" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.1"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "6.0"^^xsd:float ;
+    tree:treeSurround "Tarmac" ;
+    tree:treeTag "255" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.573609"^^xsd:float ;
+    geo1:long "-5.954676"^^xsd:float .
+
+tree:tree16044 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.66"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "18.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "1635" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.550376"^^xsd:float ;
+    geo1:long "-5.963024"^^xsd:float .
+
+tree:tree16048 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.33"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "270" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.638854"^^xsd:float ;
+    geo1:long "-5.943531"^^xsd:float .
+
+tree:tree16049 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.21"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "271" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.638738"^^xsd:float ;
+    geo1:long "-5.94376"^^xsd:float .
+
+tree:tree16050 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.46"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "272" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.638547"^^xsd:float ;
+    geo1:long "-5.943849"^^xsd:float .
+
+tree:tree16229 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Mature" ;
+    tree:condition "Poor" ;
+    tree:description "Mature" ;
+    tree:diameter "0.74"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "21.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "284" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.638025"^^xsd:float ;
+    geo1:long "-5.944646"^^xsd:float .
+
+tree:tree16242 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.43"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "7.0"^^xsd:float ;
+    tree:treeHeight "22.0"^^xsd:float ;
+    tree:treeSurround "Bramble/Briars" ;
+    tree:treeTag "297" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.637725"^^xsd:float ;
+    geo1:long "-5.945164"^^xsd:float .
+
+tree:tree17433 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Bare Ground" ;
+    tree:treeTag "2808" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.656273"^^xsd:float ;
+    geo1:long "-5.943085"^^xsd:float .
+
+tree:tree17434 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2809" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.656299"^^xsd:float ;
+    geo1:long "-5.943178"^^xsd:float .
+
+tree:tree17435 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2810" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.656309"^^xsd:float ;
+    geo1:long "-5.943108"^^xsd:float .
+
+tree:tree17670 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.26"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2811" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.656344"^^xsd:float ;
+    geo1:long "-5.943116"^^xsd:float .
+
+tree:tree17671 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2812" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.656328"^^xsd:float ;
+    geo1:long "-5.943062"^^xsd:float .
+
+tree:tree1771 a dbr:Betula_ermanii,
+        tree:StreetTree ;
+    tree:age "Juvenile" ;
+    tree:condition "Poor" ;
+    tree:description "Extra Heavy Standard" ;
+    tree:diameter "0.08"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "1.0"^^xsd:float ;
+    tree:treeHeight "0.0"^^xsd:float ;
+    tree:treeSurround "Tarmac" ;
+    tree:treeTag "0" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.616101"^^xsd:float ;
+    geo1:long "-5.925089"^^xsd:float .
+
+tree:tree19871 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Mature" ;
+    tree:condition "Good" ;
+    tree:description "Mature" ;
+    tree:diameter "0.8"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "574" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.563784"^^xsd:float ;
+    geo1:long "-5.934041"^^xsd:float .
+
+tree:tree19872 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Good" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.42"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "575" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.563813"^^xsd:float ;
+    geo1:long "-5.934035"^^xsd:float .
+
+tree:tree19874 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Mature" ;
+    tree:condition "Good" ;
+    tree:description "Mature" ;
+    tree:diameter "0.74"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "577" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.563687"^^xsd:float ;
+    geo1:long "-5.934467"^^xsd:float .
+
+tree:tree1994 a dbr:Betula_pendula,
+        tree:StreetTree ;
+    tree:age "Mature" ;
+    tree:condition "Good" ;
+    tree:description "Mature" ;
+    tree:diameter "0.34"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "0.0"^^xsd:float ;
+    tree:treeSurround "Paved Brick Paviour" ;
+    tree:treeTag "0" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.600334"^^xsd:float ;
+    geo1:long "-5.927759"^^xsd:float .
+
+tree:tree20011 a dbr:Araucaria_araucana,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Poor" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.45"^^xsd:float ;
+    tree:speciesType "Pine" ;
+    tree:spreadRadius "8.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "3328" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.655662"^^xsd:float ;
+    geo1:long "-5.940377"^^xsd:float .
+
+tree:tree20278 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Good" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.38"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "460" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.565525"^^xsd:float ;
+    geo1:long "-5.930769"^^xsd:float .
+
+tree:tree20279 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Good" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.37"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "462" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.565442"^^xsd:float ;
+    geo1:long "-5.930505"^^xsd:float .
+
+tree:tree20963 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.33"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "495" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.580582"^^xsd:float ;
+    geo1:long "-5.917309"^^xsd:float .
+
+tree:tree21532 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Good" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.37"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "105" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.568055"^^xsd:float ;
+    geo1:long "-5.924999"^^xsd:float .
+
+tree:tree21635 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.52"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "446" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.579624"^^xsd:float ;
+    geo1:long "-5.926696"^^xsd:float .
+
+tree:tree21638 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.31"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "449" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.579553"^^xsd:float ;
+    geo1:long "-5.926724"^^xsd:float .
+
+tree:tree21639 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.24"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "450" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.579521"^^xsd:float ;
+    geo1:long "-5.926732"^^xsd:float .
+
+tree:tree21652 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.26"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "463" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.579006"^^xsd:float ;
+    geo1:long "-5.926647"^^xsd:float .
+
+tree:tree21659 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "470" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.578796"^^xsd:float ;
+    geo1:long "-5.926596"^^xsd:float .
+
+tree:tree21660 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.29"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "471" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.578808"^^xsd:float ;
+    geo1:long "-5.926628"^^xsd:float .
+
+tree:tree21662 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.17"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "472" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.578763"^^xsd:float ;
+    geo1:long "-5.926594"^^xsd:float .
+
+tree:tree21817 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Good" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.66"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "17.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "230" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.567112"^^xsd:float ;
+    geo1:long "-5.927765"^^xsd:float .
+
+tree:tree21818 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Mature" ;
+    tree:condition "Good" ;
+    tree:description "Mature" ;
+    tree:diameter "0.81"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "17.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "231" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.567067"^^xsd:float ;
+    geo1:long "-5.927813"^^xsd:float .
+
+tree:tree22087 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.45"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "335" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588998"^^xsd:float ;
+    geo1:long "-5.98045"^^xsd:float .
+
+tree:tree22107 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.22"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "355" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588999"^^xsd:float ;
+    geo1:long "-5.979768"^^xsd:float .
+
+tree:tree22158 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "39" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.590557"^^xsd:float ;
+    geo1:long "-5.97826"^^xsd:float .
+
+tree:tree22194 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.61"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "377" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589589"^^xsd:float ;
+    geo1:long "-5.97913"^^xsd:float .
+
+tree:tree22196 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.35"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "379" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589633"^^xsd:float ;
+    geo1:long "-5.979332"^^xsd:float .
+
+tree:tree22199 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.34"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "10.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "382" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589829"^^xsd:float ;
+    geo1:long "-5.979562"^^xsd:float .
+
+tree:tree22215 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "398" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.590403"^^xsd:float ;
+    geo1:long "-5.978907"^^xsd:float .
+
+tree:tree22219 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "402" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.590353"^^xsd:float ;
+    geo1:long "-5.978598"^^xsd:float .
+
+tree:tree22290 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "405" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.590258"^^xsd:float ;
+    geo1:long "-5.978065"^^xsd:float .
+
+tree:tree22291 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.16"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "406" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.590229"^^xsd:float ;
+    geo1:long "-5.977938"^^xsd:float .
+
+tree:tree22292 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Poor" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.39"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "407" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.590216"^^xsd:float ;
+    geo1:long "-5.977837"^^xsd:float .
+
+tree:tree223 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Poor" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.29"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "24" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.614169"^^xsd:float ;
+    geo1:long "-5.859277"^^xsd:float .
+
+tree:tree22305 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.29"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "420" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589274"^^xsd:float ;
+    geo1:long "-5.978976"^^xsd:float .
+
+tree:tree22306 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.33"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "422" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588833"^^xsd:float ;
+    geo1:long "-5.978879"^^xsd:float .
+
+tree:tree22307 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.38"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "421" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588849"^^xsd:float ;
+    geo1:long "-5.978954"^^xsd:float .
+
+tree:tree22454 a dbr:Araucaria_araucana,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Good" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.49"^^xsd:float ;
+    tree:speciesType "Pine" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "17.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1173" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.585531"^^xsd:float ;
+    geo1:long "-5.914957"^^xsd:float .
+
+tree:tree22516 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.17"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "170" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589901"^^xsd:float ;
+    geo1:long "-5.985348"^^xsd:float .
+
+tree:tree22517 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "172" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589854"^^xsd:float ;
+    geo1:long "-5.985375"^^xsd:float .
+
+tree:tree22624 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Good" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.17"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "175" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589773"^^xsd:float ;
+    geo1:long "-5.985423"^^xsd:float .
+
+tree:tree22626 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Good" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "177" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589729"^^xsd:float ;
+    geo1:long "-5.985447"^^xsd:float .
+
+tree:tree22627 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Good" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.26"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "178" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589702"^^xsd:float ;
+    geo1:long "-5.985459"^^xsd:float .
+
+tree:tree22631 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "182" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589696"^^xsd:float ;
+    geo1:long "-5.985573"^^xsd:float .
+
+tree:tree22634 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "185" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589768"^^xsd:float ;
+    geo1:long "-5.985526"^^xsd:float .
+
+tree:tree22637 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.17"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "188" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589848"^^xsd:float ;
+    geo1:long "-5.985474"^^xsd:float .
+
+tree:tree22638 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Good" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.12"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "1.0"^^xsd:float ;
+    tree:treeHeight "10.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "189" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589892"^^xsd:float ;
+    geo1:long "-5.98545"^^xsd:float .
+
+tree:tree22639 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.15"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "190" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589922"^^xsd:float ;
+    geo1:long "-5.985438"^^xsd:float .
+
+tree:tree22643 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.32"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "194" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589933"^^xsd:float ;
+    geo1:long "-5.985525"^^xsd:float .
+
+tree:tree22645 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "196" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589878"^^xsd:float ;
+    geo1:long "-5.98555"^^xsd:float .
+
+tree:tree22646 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Good" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "197" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589855"^^xsd:float ;
+    geo1:long "-5.985565"^^xsd:float .
+
+tree:tree22647 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.22"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "198" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.58983"^^xsd:float ;
+    geo1:long "-5.985578"^^xsd:float .
+
+tree:tree22648 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Good" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.21"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "200" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589782"^^xsd:float ;
+    geo1:long "-5.985601"^^xsd:float .
+
+tree:tree22649 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "202" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589733"^^xsd:float ;
+    geo1:long "-5.98563"^^xsd:float .
+
+tree:tree22713 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Bare Ground" ;
+    tree:treeTag "1297" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589027"^^xsd:float ;
+    geo1:long "-5.910833"^^xsd:float .
+
+tree:tree23119 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.17"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "609" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.58932"^^xsd:float ;
+    geo1:long "-5.977411"^^xsd:float .
+
+tree:tree23120 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.14"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "7.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "610" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589298"^^xsd:float ;
+    geo1:long "-5.97735"^^xsd:float .
+
+tree:tree23121 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "611" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589285"^^xsd:float ;
+    geo1:long "-5.977291"^^xsd:float .
+
+tree:tree23122 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "612" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589266"^^xsd:float ;
+    geo1:long "-5.977246"^^xsd:float .
+
+tree:tree23123 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.21"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "613" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.58924"^^xsd:float ;
+    geo1:long "-5.977174"^^xsd:float .
+
+tree:tree23124 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "614" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589219"^^xsd:float ;
+    geo1:long "-5.977126"^^xsd:float .
+
+tree:tree23125 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.2"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "615" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.5892"^^xsd:float ;
+    geo1:long "-5.977084"^^xsd:float .
+
+tree:tree23126 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.16"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "7.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589163"^^xsd:float ;
+    geo1:long "-5.976984"^^xsd:float .
+
+tree:tree23127 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "617" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589105"^^xsd:float ;
+    geo1:long "-5.976828"^^xsd:float .
+
+tree:tree23128 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.2"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "618" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589085"^^xsd:float ;
+    geo1:long "-5.97675"^^xsd:float .
+
+tree:tree23129 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.2"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "619" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589065"^^xsd:float ;
+    geo1:long "-5.976698"^^xsd:float .
+
+tree:tree23130 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "620" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589043"^^xsd:float ;
+    geo1:long "-5.976636"^^xsd:float .
+
+tree:tree23131 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.17"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "621" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.58903"^^xsd:float ;
+    geo1:long "-5.976584"^^xsd:float .
+
+tree:tree23132 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.16"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "622" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589012"^^xsd:float ;
+    geo1:long "-5.976536"^^xsd:float .
+
+tree:tree23133 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.21"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "623" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.58894"^^xsd:float ;
+    geo1:long "-5.976742"^^xsd:float .
+
+tree:tree23134 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.17"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "7.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "624" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588962"^^xsd:float ;
+    geo1:long "-5.97682"^^xsd:float .
+
+tree:tree23135 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.16"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "625" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588992"^^xsd:float ;
+    geo1:long "-5.976881"^^xsd:float .
+
+tree:tree23137 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "627" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589039"^^xsd:float ;
+    geo1:long "-5.977047"^^xsd:float .
+
+tree:tree23138 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.16"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "7.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "628" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589061"^^xsd:float ;
+    geo1:long "-5.977099"^^xsd:float .
+
+tree:tree23139 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "629" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589074"^^xsd:float ;
+    geo1:long "-5.977171"^^xsd:float .
+
+tree:tree23140 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.22"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "7.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "630" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589128"^^xsd:float ;
+    geo1:long "-5.977317"^^xsd:float .
+
+tree:tree23141 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.16"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "9.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "631" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589154"^^xsd:float ;
+    geo1:long "-5.977375"^^xsd:float .
+
+tree:tree23274 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.14"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "7.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "632" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589174"^^xsd:float ;
+    geo1:long "-5.97744"^^xsd:float .
+
+tree:tree23275 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.17"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "8.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "633" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589198"^^xsd:float ;
+    geo1:long "-5.977495"^^xsd:float .
+
+tree:tree23276 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.14"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "7.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "634" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589214"^^xsd:float ;
+    geo1:long "-5.97755"^^xsd:float .
+
+tree:tree23277 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.16"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "7.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "635" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589232"^^xsd:float ;
+    geo1:long "-5.977609"^^xsd:float .
+
+tree:tree23323 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.22"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "519" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.578242"^^xsd:float ;
+    geo1:long "-5.926584"^^xsd:float .
+
+tree:tree23715 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "648" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.574122"^^xsd:float ;
+    geo1:long "-5.929041"^^xsd:float .
+
+tree:tree23716 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.16"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "649" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.574034"^^xsd:float ;
+    geo1:long "-5.929046"^^xsd:float .
+
+tree:tree23717 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "650" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.573966"^^xsd:float ;
+    geo1:long "-5.929001"^^xsd:float .
+
+tree:tree23718 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.18"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "653" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.573887"^^xsd:float ;
+    geo1:long "-5.929157"^^xsd:float .
+
+tree:tree23719 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.27"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "654" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.573858"^^xsd:float ;
+    geo1:long "-5.929143"^^xsd:float .
+
+tree:tree23720 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "656" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.573802"^^xsd:float ;
+    geo1:long "-5.929119"^^xsd:float .
+
+tree:tree23981 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.34"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "299" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.590519"^^xsd:float ;
+    geo1:long "-5.979479"^^xsd:float .
+
+tree:tree23982 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.62"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "298" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.590578"^^xsd:float ;
+    geo1:long "-5.980014"^^xsd:float .
+
+tree:tree24073 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Poor" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.22"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "318" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589627"^^xsd:float ;
+    geo1:long "-5.980462"^^xsd:float .
+
+tree:tree24074 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Poor" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "319" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.589634"^^xsd:float ;
+    geo1:long "-5.980521"^^xsd:float .
+
+tree:tree24087 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Good" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.33"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "332" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.58909"^^xsd:float ;
+    geo1:long "-5.980189"^^xsd:float .
+
+tree:tree24142 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.26"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Memorial" ;
+    tree:treeTag "919" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588752"^^xsd:float ;
+    geo1:long "-5.974931"^^xsd:float .
+
+tree:tree25042 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Poor" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "8.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "2532" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.587291"^^xsd:float ;
+    geo1:long "-5.877501"^^xsd:float .
+
+tree:tree25360 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.3"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "10.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "627" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.582402"^^xsd:float ;
+    geo1:long "-5.931507"^^xsd:float .
+
+tree:tree25732 a dbr:Robinia_pseudoacacia,
+        tree:ParkTree ;
+    tree:age "Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Mature" ;
+    tree:diameter "0.77"^^xsd:float ;
+    tree:speciesType "False Acaia" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "416" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.583183"^^xsd:float ;
+    geo1:long "-5.933599"^^xsd:float .
+
+tree:tree25802 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.3"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "0.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.577306"^^xsd:float ;
+    geo1:long "-5.930327"^^xsd:float .
+
+tree:tree26513 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.17"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "10.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "466" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.60844"^^xsd:float ;
+    geo1:long "-5.966212"^^xsd:float .
+
+tree:tree26561 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Dead" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.58"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "7.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1205" ;
+    tree:units qudt:m ;
+    tree:vigour "N/A" ;
+    geo1:lat "54.542997"^^xsd:float ;
+    geo1:long "-5.982617"^^xsd:float .
+
+tree:tree27542 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.32"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "58" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.555988"^^xsd:float ;
+    geo1:long "-5.95802"^^xsd:float .
+
+tree:tree27653 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.29"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "17.0"^^xsd:float ;
+    tree:treeSurround "Bare Ground" ;
+    tree:treeTag "1210" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.54298"^^xsd:float ;
+    geo1:long "-5.983331"^^xsd:float .
+
+tree:tree27684 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.31"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "98" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.636899"^^xsd:float ;
+    geo1:long "-5.944584"^^xsd:float .
+
+tree:tree27685 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.33"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "96" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.636876"^^xsd:float ;
+    geo1:long "-5.944552"^^xsd:float .
+
+tree:tree27693 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Poor" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.35"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "0.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "136" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.636723"^^xsd:float ;
+    geo1:long "-5.944046"^^xsd:float .
+
+tree:tree28017 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.5"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "21.0"^^xsd:float ;
+    tree:treeSurround "Bramble/Briars" ;
+    tree:treeTag "443" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.641367"^^xsd:float ;
+    geo1:long "-5.941167"^^xsd:float .
+
+tree:tree28018 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Very Poor" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.48"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "7.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Bramble/Briars" ;
+    tree:treeTag "444" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.641403"^^xsd:float ;
+    geo1:long "-5.941033"^^xsd:float .
+
+tree:tree28055 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.38"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "97" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.636908"^^xsd:float ;
+    geo1:long "-5.944559"^^xsd:float .
+
+tree:tree28135 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "N/A" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.55"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "131" ;
+    tree:units qudt:m ;
+    tree:vigour "N/A" ;
+    geo1:lat "54.63683"^^xsd:float ;
+    geo1:long "-5.944386"^^xsd:float .
+
+tree:tree28136 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Poor" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.41"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "132" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.636818"^^xsd:float ;
+    geo1:long "-5.944376"^^xsd:float .
+
+tree:tree28290 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Very Poor" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.61"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "21.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "567" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.64297"^^xsd:float ;
+    geo1:long "-5.940218"^^xsd:float .
+
+tree:tree29049 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.56"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "7.0"^^xsd:float ;
+    tree:treeHeight "18.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "98" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.58305"^^xsd:float ;
+    geo1:long "-5.934269"^^xsd:float .
+
+tree:tree29436 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.43"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "20.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "376" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.553566"^^xsd:float ;
+    geo1:long "-5.955571"^^xsd:float .
+
+tree:tree29549 a dbr:Betula_pendula,
+        tree:StreetTree ;
+    tree:age "Semi-Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi Mature" ;
+    tree:diameter "0.3"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Tarmac" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.593441"^^xsd:float ;
+    geo1:long "-5.842216"^^xsd:float .
+
+tree:tree29765 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.29"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "655" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.573832"^^xsd:float ;
+    geo1:long "-5.929132"^^xsd:float .
+
+tree:tree29770 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.39"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "687" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.57236"^^xsd:float ;
+    geo1:long "-5.927653"^^xsd:float .
+
+tree:tree3196 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.27"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "889" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.568649"^^xsd:float ;
+    geo1:long "-5.970721"^^xsd:float .
+
+tree:tree32945 a dbr:Betula_ermanii,
+        tree:StreetTree ;
+    tree:age "Semi-Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi Mature" ;
+    tree:diameter "0.28"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Tarmac" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.616175"^^xsd:float ;
+    geo1:long "-5.925412"^^xsd:float .
+
+tree:tree32946 a dbr:Betula_ermanii,
+        tree:StreetTree ;
+    tree:age "Semi-Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi Mature" ;
+    tree:diameter "-0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Tarmac" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.616199"^^xsd:float ;
+    geo1:long "-5.925494"^^xsd:float .
+
+tree:tree32947 a dbr:Betula_pendula,
+        tree:StreetTree ;
+    tree:age "Semi-Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi Mature" ;
+    tree:diameter "0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "12.0"^^xsd:float ;
+    tree:treeSurround "Tarmac" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.616223"^^xsd:float ;
+    geo1:long "-5.925296"^^xsd:float .
+
+tree:tree32948 a dbr:Betula_pendula,
+        tree:StreetTree ;
+    tree:age "Semi-Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi Mature" ;
+    tree:diameter "0.24"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "10.0"^^xsd:float ;
+    tree:treeSurround "Tarmac" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.616262"^^xsd:float ;
+    geo1:long "-5.925465"^^xsd:float .
+
+tree:tree33002 a dbr:Betula_ermanii,
+        tree:StreetTree ;
+    tree:age "Semi-Mature" ;
+    tree:condition "Poor" ;
+    tree:description "Semi Mature" ;
+    tree:diameter "0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Tarmac" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.616266"^^xsd:float ;
+    geo1:long "-5.925758"^^xsd:float .
+
+tree:tree33003 a dbr:Betula_ermanii,
+        tree:StreetTree ;
+    tree:age "Semi-Mature" ;
+    tree:condition "Good" ;
+    tree:description "Semi Mature" ;
+    tree:diameter "0.25"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "11.0"^^xsd:float ;
+    tree:treeSurround "Tarmac" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.616068"^^xsd:float ;
+    geo1:long "-5.924961"^^xsd:float .
+
+tree:tree35049 a dbr:Betula_pendula,
+        tree:StreetTree ;
+    tree:age "Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Mature" ;
+    tree:diameter "0.37"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Tarmac" ;
+    tree:treeTag "" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.616303"^^xsd:float ;
+    geo1:long "-5.925619"^^xsd:float .
+
+tree:tree35573 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Good" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.41"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "148" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.637062"^^xsd:float ;
+    geo1:long "-5.943642"^^xsd:float .
+
+tree:tree36754 a dbr:Robinia_pseudoacacia,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Poor" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.69"^^xsd:float ;
+    tree:speciesType "False Acaia" ;
+    tree:spreadRadius "7.0"^^xsd:float ;
+    tree:treeHeight "26.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "1834" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.538475"^^xsd:float ;
+    geo1:long "-5.984253"^^xsd:float .
+
+tree:tree36835 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Dying" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.69"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "22.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "362" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.639134"^^xsd:float ;
+    geo1:long "-5.944117"^^xsd:float .
+
+tree:tree3913 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.14"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "10.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "432" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.607853"^^xsd:float ;
+    geo1:long "-5.886706"^^xsd:float .
+
+tree:tree4109 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.15"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "4.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1018" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.569344"^^xsd:float ;
+    geo1:long "-5.971668"^^xsd:float .
+
+tree:tree4336 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.19"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "0.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "3416" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.587298"^^xsd:float ;
+    geo1:long "-5.979024"^^xsd:float .
+
+tree:tree4339 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Good" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.2"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "0.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "3423" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.587695"^^xsd:float ;
+    geo1:long "-5.979309"^^xsd:float .
+
+tree:tree4788 a dbr:Betula_pendula,
+        tree:StreetTree ;
+    tree:age "" ;
+    tree:condition "Good" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.01"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "1.0"^^xsd:float ;
+    tree:treeSurround "Paved Brick Paviour" ;
+    tree:treeTag "0" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.599379"^^xsd:float ;
+    geo1:long "-5.929614"^^xsd:float .
+
+tree:tree4817 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.22"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "0.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "3387" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.587585"^^xsd:float ;
+    geo1:long "-5.97932"^^xsd:float .
+
+tree:tree4920 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Poor" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.15"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "0.0"^^xsd:float ;
+    tree:treeSurround "Bare Ground" ;
+    tree:treeTag "32" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.577059"^^xsd:float ;
+    geo1:long "-5.930645"^^xsd:float .
+
+tree:tree5276 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.21"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "246" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588678"^^xsd:float ;
+    geo1:long "-5.882701"^^xsd:float .
+
+tree:tree5978 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.16"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2113" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588641"^^xsd:float ;
+    geo1:long "-5.874162"^^xsd:float .
+
+tree:tree5979 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.13"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2114" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588665"^^xsd:float ;
+    geo1:long "-5.874168"^^xsd:float .
+
+tree:tree5980 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "17.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2115" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588646"^^xsd:float ;
+    geo1:long "-5.874227"^^xsd:float .
+
+tree:tree5990 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.16"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "17.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "2124" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588734"^^xsd:float ;
+    geo1:long "-5.874373"^^xsd:float .
+
+tree:tree6152 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.31"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "7.0"^^xsd:float ;
+    tree:treeHeight "17.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "2531" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.587376"^^xsd:float ;
+    geo1:long "-5.877695"^^xsd:float .
+
+tree:tree6699 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.36"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "116" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.582725"^^xsd:float ;
+    geo1:long "-5.934256"^^xsd:float .
+
+tree:tree6723 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Fair" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.19"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "10.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "2094" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.588876"^^xsd:float ;
+    geo1:long "-5.874632"^^xsd:float .
+
+tree:tree6944 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.51"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "8.0"^^xsd:float ;
+    tree:treeHeight "18.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "411" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.583106"^^xsd:float ;
+    geo1:long "-5.934009"^^xsd:float .
+
+tree:tree6945 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.66"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "7.0"^^xsd:float ;
+    tree:treeHeight "19.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "412" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.58311"^^xsd:float ;
+    geo1:long "-5.933876"^^xsd:float .
+
+tree:tree7315 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.2"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Bare Ground" ;
+    tree:treeTag "643" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.582053"^^xsd:float ;
+    geo1:long "-5.930906"^^xsd:float .
+
+tree:tree7877 a dbr:Betula_pendula,
+        tree:StreetTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Good" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.29"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "0.0"^^xsd:float ;
+    tree:treeSurround "Paved Brick Paviour" ;
+    tree:treeTag "0" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.600244"^^xsd:float ;
+    geo1:long "-5.927651"^^xsd:float .
+
+tree:tree7935 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.49"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "1471" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.541099"^^xsd:float ;
+    geo1:long "-5.98289"^^xsd:float .
+
+tree:tree8277 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.38"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Woodland" ;
+    tree:treeTag "1173" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.54306"^^xsd:float ;
+    geo1:long "-5.985"^^xsd:float .
+
+tree:tree8362 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "" ;
+    tree:condition "Fair" ;
+    tree:description "N/A" ;
+    tree:diameter "-0.23"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "14.0"^^xsd:float ;
+    tree:treeSurround "Bare Ground" ;
+    tree:treeTag "1196" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.542744"^^xsd:float ;
+    geo1:long "-5.982943"^^xsd:float .
+
+tree:tree8498 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.51"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "21.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1203" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.542914"^^xsd:float ;
+    geo1:long "-5.982394"^^xsd:float .
+
+tree:tree8499 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "N/A" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.34"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "4.0"^^xsd:float ;
+    tree:treeHeight "21.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1204" ;
+    tree:units qudt:m ;
+    tree:vigour "N/A" ;
+    geo1:lat "54.542907"^^xsd:float ;
+    geo1:long "-5.982453"^^xsd:float .
+
+tree:tree8505 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.29"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "3.0"^^xsd:float ;
+    tree:treeHeight "16.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "1215" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.542423"^^xsd:float ;
+    geo1:long "-5.982528"^^xsd:float .
+
+tree:tree8520 a dbr:Araucaria_araucana,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Good" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.14"^^xsd:float ;
+    tree:speciesType "Pine" ;
+    tree:spreadRadius "1.0"^^xsd:float ;
+    tree:treeHeight "3.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "797" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.544118"^^xsd:float ;
+    geo1:long "-5.979673"^^xsd:float .
+
+tree:tree8537 a dbr:Betula_ermanii,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Good" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.32"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "6.0"^^xsd:float ;
+    tree:treeHeight "13.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1640" ;
+    tree:units qudt:m ;
+    tree:vigour "Normal" ;
+    geo1:lat "54.541315"^^xsd:float ;
+    geo1:long "-5.986828"^^xsd:float .
+
+tree:tree9063 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.38"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "5.0"^^xsd:float ;
+    tree:treeHeight "21.0"^^xsd:float ;
+    tree:treeSurround "Grass" ;
+    tree:treeTag "1866" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.538668"^^xsd:float ;
+    geo1:long "-5.985194"^^xsd:float .
+
+tree:tree9419 a dbr:Robinia_pseudoacacia,
+        tree:ParkTree ;
+    tree:age "Young Mature" ;
+    tree:condition "Fair" ;
+    tree:description "Semi-Mature" ;
+    tree:diameter "0.36"^^xsd:float ;
+    tree:speciesType "False Acaia" ;
+    tree:spreadRadius "9.0"^^xsd:float ;
+    tree:treeHeight "15.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "264" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.540645"^^xsd:float ;
+    geo1:long "-5.981049"^^xsd:float .
+
+tree:tree9478 a dbr:Betula_pendula,
+        tree:ParkTree ;
+    tree:age "Young" ;
+    tree:condition "Fair" ;
+    tree:description "Juvenile/Young" ;
+    tree:diameter "0.15"^^xsd:float ;
+    tree:speciesType "Birch" ;
+    tree:spreadRadius "2.0"^^xsd:float ;
+    tree:treeHeight "5.0"^^xsd:float ;
+    tree:treeSurround "Shrubs" ;
+    tree:treeTag "122" ;
+    tree:units qudt:m ;
+    tree:vigour "Low" ;
+    geo1:lat "54.598432"^^xsd:float ;
+    geo1:long "-5.89075"^^xsd:float .
+
