@@ -106,20 +106,3 @@ WHERE {
 	?tree wd:P31 ?speciesType.
 }
 GROUP BY ?speciesType
-
-PREFIX tree: <http://example.org/tree>
-PREFIX wd: <http://www.wikidata.org/entity/>
-PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
-SELECT ?tree ?label (SAMPLE(?image) AS ?sampleImage)
-WHERE {
-  ?tree wd:P31 ?speciesType .
-  SERVICE <https://query.wikidata.org/sparql> {
-    ?speciesType wdt:P18 ?image ;
-      			 rdfs:label ?label .
-    FILTER(LANG(?label) = "en")
-  }
-}
-group by ?tree ?label
-limit 1
