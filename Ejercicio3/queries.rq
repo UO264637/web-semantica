@@ -3,7 +3,6 @@
 PREFIX tree: <http://example.org/tree>
 SELECT 
 	?type (COUNT(?tree) AS ?numTreesPoorCondition)
-	?type (COUNT(?tree) AS ?numTreesPoorCondition)
 WHERE {
 	?tree tree:condition "Poor" ;
 	      tree:type ?type .
@@ -66,6 +65,7 @@ WHERE {
 # ----------- CONSULTAS COMBINADAS CON WIKIDATA ------------
 # ----------------------- Consulta 5 -----------------------
 # Número de árboles de cada tipo de especie junto con su etiqueta de Wikidata en inglés
+# Tarda unos 15 minutos en ejecutarse
 PREFIX tree: <http://example.org/tree>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -82,8 +82,8 @@ GROUP BY ?speciesType ?label
 
 
 # ----------------------- Consulta 6 ----------------------
-# Cada arbol con una foto de su tipo de especie de Wikidata
-
+# Para cada árbol obtener una única foto (si la tuviera) de su tipo de especie en Wikidata 
+# Tarda unos 20 minutos en ejecutarse
 PREFIX tree: <http://example.org/tree>
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
@@ -93,10 +93,9 @@ SELECT ?tree ?label (SAMPLE(?image) AS ?sampleImage)
 WHERE {
   ?tree wd:P31 ?speciesType .
   SERVICE <https://query.wikidata.org/sparql> {
-    ?speciesType wdt:P18 ?image ;
-      			 rdfs:label ?label .
+    ?speciesType rdfs:label ?label .
     FILTER(LANG(?label) = "en")
+    OPTIONAL {?speciesType wdt:P18 ?image}
   }
 }
 group by ?tree ?label
-limit 1
