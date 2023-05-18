@@ -1,0 +1,101 @@
+PREFIX schema: <http://schema.org/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX qudt: <https://qudt.org/2.1/vocab/unit>
+PREFIX tree: <http://example.org/tree/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX sh: <http://www.w3.org/ns/shacl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+tree:TreeShape a sh:NodeShape ;
+    sh:targetNode tree:tree0 ;
+    sh:nodeKind sh:IRI ;
+    sh:property [
+        sh:path rdf:type ;
+        sh:maxCount 1 ;
+        sh:in dbr:species
+    ] ;
+    sh:property [
+        sh:path tree:age ;
+        sh:maxCount 1;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path tree:condition ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path tree:description ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path tree:diameter ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:datatype xsd:float ;
+    ] ;
+    sh:property [
+        sh:path tree:spreadRadius ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:datatype xsd:float ;
+    ] ;
+    sh:property [
+        sh:path schema:height ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:datatype xsd:float ;
+    ] ;
+    sh:property [
+        sh:path tree:treeSurround ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path tree:tag ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1 ;
+    ] ;
+    sh:property [
+        sh:path tree:type ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path tree:units ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:in qudt:units ;
+    ] ;
+    sh:property [
+        sh:path tree:vigour ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
+        sh:path geo:lat ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:datatype xsd:float ;
+    ] ;
+    sh:property [
+        sh:path geo:long ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:datatype xsd:float ;
+    ] ;
+    sh:property [
+        sh:path wdt:P31 ;
+        sh:maxCount 1;
+        sh:in wd:speciesType ;
+    ] .
+
+qudt:units
+    a sh:NodeShape ;
+    sh:targetClass qudt:units .
+
+dbr:species
+    a sh:NodeShape ;
+    sh:targetClass dbr:species .
+
+wd:speciesType
+    a sh:NodeShape ;
+    sh:targetClass wd:speciesType .

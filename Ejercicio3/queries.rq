@@ -1,6 +1,6 @@
 # ----------------------- Consulta 1 -----------------------
 # Número de arboles en mal estado en la calle y en los parques
-PREFIX tree: <http://example.org/tree>
+PREFIX tree: <http://example.org/tree/>
 SELECT 
 	?type (COUNT(?tree) AS ?numTreesPoorCondition)
 WHERE {
@@ -12,12 +12,13 @@ GROUP BY ?type
 
 # ----------------------- Consulta 2 -----------------------
 # Media de altura, ancho y radio de extensión por especie (dbpedia) de árbol:
-PREFIX tree: <http://example.org/tree>
+PREFIX schema: <http://schema.org/>
+PREFIX tree: <http://example.org/tree/>
 PREFIX dbr: <http://dbpedia.org/resource/> 
 SELECT ?species (AVG(?diameter) AS ?avgDiameter) (AVG(?height) AS ?avgHeight) (AVG(?spreadRadius) AS ?avgSpreadRadius) WHERE {
   ?tree a ?species ;
         tree:diameter ?diameter ;
-        tree:treeHeight ?height ;
+        schema:height ?height ;
         tree:spreadRadius ?spreadRadius .
         
 } GROUP BY ?species
@@ -25,12 +26,12 @@ SELECT ?species (AVG(?diameter) AS ?avgDiameter) (AVG(?height) AS ?avgHeight) (A
 
 # ----------------------- Consulta 3 -----------------------
 # Tipo de specie de árbol (wikidata) más común en las calles
-PREFIX tree: <http://example.org/tree>
-PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX tree: <http://example.org/tree/>
 SELECT ?species (COUNT(?streetTree) AS ?count)
 WHERE {
   ?streetTree tree:type "StreetTree" ;
-              wd:P31 ?species .
+              wdt:P31 ?species .
 }
 GROUP BY ?species
 ORDER BY DESC(?count)
@@ -39,22 +40,23 @@ LIMIT 1
 
 # ----------------------- Consulta 4 -----------------------
 # Árbol más alto de todos con su especie y ubicación (el dato original seguramente sea erróneo ya que el resultado son más de 800 metros)
-PREFIX wd: <http://www.wikidata.org/entity/>
-PREFIX tree: <http://example.org/tree>
-PREFIX geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
+PREFIX schema: <http://schema.org/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX tree: <http://example.org/tree/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
 
 SELECT ?tree ?speciesType ?species ?treeHeight ?longitude ?latitude
 WHERE {
-  ?tree tree:treeHeight ?treeHeight ;
-        geo1:long ?longitude ;
-        geo1:lat ?latitude .
-  OPTIONAL {?tree wd:P31 ?speciesType}
+  ?tree schema:height ?treeHeight ;
+        geo:long ?longitude ;
+        geo:lat ?latitude .
+  OPTIONAL {?tree wdt:P31 ?speciesType}
   OPTIONAL {?tree a ?species }
         
   {
     SELECT (MAX(?height) AS ?maxHeight)
     WHERE {
-      ?t tree:treeHeight ?height .
+      ?t schema:height ?height .
     }
   }
   FILTER(?treeHeight = ?maxHeight)
@@ -66,13 +68,13 @@ WHERE {
 # ----------------------- Consulta 5 -----------------------
 # Número de árboles de cada tipo de especie junto con su etiqueta de Wikidata en inglés
 # Tarda unos 15 minutos en ejecutarse
-PREFIX tree: <http://example.org/tree>
-PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX tree: <http://example.org/tree/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 SELECT ?speciesType ?label (COUNT(?tree) AS ?numTrees)
 WHERE {
-  ?tree wd:P31 ?speciesType .
+  ?tree wdt:P31 ?speciesType .
   SERVICE <https://query.wikidata.org/sparql> {
     ?speciesType rdfs:label ?label .
     FILTER(LANG(?label) = "en")

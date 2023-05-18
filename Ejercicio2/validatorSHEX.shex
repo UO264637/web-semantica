@@ -1,0 +1,30 @@
+PREFIX schema: <http://schema.org/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
+PREFIX qudt: <https://qudt.org/2.1/vocab/unit> 
+PREFIX tree: <http://example.org/tree/> 
+PREFIX wd: <http://www.wikidata.org/entity/> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+tree:Tree {
+  a @dbr:species ? ;
+  tree:age xsd:string ? ;
+  tree:condition xsd:string ;
+  tree:description xsd:string ;
+  tree:diameter xsd:float ;
+  tree:spreadRadius xsd:float ;
+  schema:height xsd:float ;
+  tree:treeSurround xsd:string ;
+  tree:tag xsd:string ? ;
+  tree:type xsd:string ;
+  tree:units @qudt:units ;
+  tree:vigour xsd:string ;
+  geo:lat xsd:float ;
+  geo:long xsd:float ;
+  wdt:P31 @wd:speciesType ? 
+}
+
+qudt:units{}
+dbr:species{}
+wd:speciesType{}
