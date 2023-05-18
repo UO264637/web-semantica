@@ -12,6 +12,7 @@
 He incluido los datos en dos almacenes RDF
  - Fuseki: http://156.35.98.70:3030/#/
  - BlazeGraph: http://156.35.98.69:9999/blazegraph/#splash
+ 
  (Acceder a ambos desde la red de uniovi o con VPN)
  
 ## Ejercicio 2
