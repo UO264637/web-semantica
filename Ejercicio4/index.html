@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mapa RDF</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <a href="index.html" title="Enlace a la página principal"><h1>Web Semántica - Ejercicio 4</h1></a>
+        <p>por Carmen Sirgo López</p>
+    </header>
+    <aside>
+        <nav>
+            <h3>Filter by Species Type</h3>
+            <ul>
+                <li><a href="ejercicio1.html" title="Ejercicio 1">Oak</a></li>
+                <li><a href="ejercicio2.html" title="Ejercicio 2">Cherry Tree</a></li>
+                <li><a href="ejercicio-grupo.html" title="Ejercicio en grupo">Apple Tree</a></li>
+            </ul>
+        </nav>
+    </aside>
+    <main>
+        <article>
+            <hgroup>
+                <h2><a href="ejercicio1.html" title="Ejercicio 1">Árboles de Belfast</a></h2>
+                <p>26 abril 2023</p>
+            </hgroup>
+            <div id="map"></div>
+        </article>
+    </main>
+    <footer>
+        <a href="https://www.uniovi.es/" title="Enlace externo a la Universidad de Oviedo">
+            <img src="resources/logoUniovi.png" alt="Universidad de Oviedo">
+        </a>
+        <p>Máster en Ingeniería Web</p>
+        <p>Curso 2022-2023</p>
+    </footer>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/rdflib/dist/rdflib.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
