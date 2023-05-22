@@ -25,3 +25,12 @@ He incluido los datos en dos almacenes RDF
  En la carpeta del ejercicio 3 se pueden encontrar todas las consultas realizadas en un fichero junto con los datos obtenidos tras su ejecución.
  
  Las consultas federadas de wikidata tardan bastante tiempo en ejecutarse, unos 15-20 minutos.
+ 
+ ## Ejercicio 4
+ En la carpeta dele ejercicio 4 se puede encontrar el código y archivos necesarios para ejecutar la aplicación web, para ello solo hay que abrir index.html en un navegador. También se puede encontrar desplegada en: http://156.35.98.70/WebSemantica/Ejercicio4/
+ 
+ La aplicación cuenta con las siguientes funcionalidades:
+  - Mapa donde se muestran los árboles.
+  - Filtros de árboles por tipo de especie. Como la consulta de wikidata tarda mucho tiempo en ejecutarse he incluido las especies de árbol en el código directamente en JSON. He limitado a 1000 el número de árboles de cada especie que se representan en el mapa para evitar que se ralentice demasiado el navegador.
+  - Al pasar el ratón por los distintos árboles del mapa se muestra un pequeño cuadro con la información básica del árbol y un enlace para ver todos los detalles.
+  - Página de detalles del árbol. Muestra toda la información del árbol, incluida la imagen asociada a su tipo de especie de wikidata si la hubiera.
