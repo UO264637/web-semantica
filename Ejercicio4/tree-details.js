@@ -69,9 +69,9 @@ fetch('http://156.35.98.70:3030/trees_ds/sparql', {
         const latitude = parseFloat(binding.latitude.value);
         const longitude = parseFloat(binding.longitude.value);
 
-        var age = "";
+        var age = "-";
         var speciesDBR = "";
-        var tag ="";
+        var tag ="-";
         var speciesType = "";
         var sampleImage = "";
         var treeLabel = "";

@@ -1,2 +1,2 @@
-"tree","speciesType","species","treeHeight","longitude","latitude"
-"http://example.org/tree/tree23251","http://www.wikidata.org/entity/Q25239",,"832.0","-5.909606","54.573505"
+"tree","speciesType","species","speciesDBR","treeHeight","longitude","latitude"
+"http://example.org/tree/tree23251","http://www.wikidata.org/entity/Q25239","Alnus glutinosa",,"832.0","-5.909606","54.573505"
