@@ -23,9 +23,10 @@ fetch('http://156.35.98.70:3030/trees_ds/sparql', {
         PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
-        SELECT ?condition ?description ?diameter ?spreadRadius ?height ?treeSurround ?type ?units ?vigour ?latitude ?longitude ?label ?age ?species ?tag ?speciesType (SAMPLE(?image) AS ?sampleImage)
+        SELECT ?condition ?species ?description ?diameter ?spreadRadius ?height ?treeSurround ?type ?units ?vigour ?latitude ?longitude ?label ?age ?speciesDBR ?tag ?speciesType (SAMPLE(?image) AS ?sampleImage)
         WHERE {
             tree:${tree} tree:condition ?condition  ;
+                         tree:species ?species  ;
                          tree:description ?description ;
                          tree:diameter ?diameter ;
                          tree:spreadRadius ?spreadRadius ;
@@ -37,7 +38,7 @@ fetch('http://156.35.98.70:3030/trees_ds/sparql', {
                          geo:lat ?latitude ;
                          geo:long ?longitude .
             OPTIONAL {tree:${tree} tree:age ?age}
-            OPTIONAL {tree:${tree} a ?species}
+            OPTIONAL {tree:${tree} a ?speciesDBR}
             OPTIONAL {tree:${tree} tree:tag ?tag}
             OPTIONAL {tree:${tree} wdt:P31 ?speciesType
                 SERVICE <https://query.wikidata.org/sparql> {
@@ -47,7 +48,7 @@ fetch('http://156.35.98.70:3030/trees_ds/sparql', {
                 }
             }
         }
-        GROUP BY ?condition ?description ?diameter ?spreadRadius ?height ?treeSurround ?type ?units ?vigour ?latitude ?longitude ?label ?age ?species ?tag ?speciesType
+        GROUP BY ?condition ?species ?description ?diameter ?spreadRadius ?height ?treeSurround ?type ?units ?vigour ?latitude ?longitude ?label ?age ?speciesDBR ?tag ?speciesType
 `),
 })
   .then(response => response.json())
@@ -56,6 +57,7 @@ fetch('http://156.35.98.70:3030/trees_ds/sparql', {
     const results = data.results.bindings;
     for (const binding of results) {
         const condition = binding.condition.value;
+        const species = binding.species.value;
         const description = binding.description.value;
         const diameter = binding.diameter.value;
         const spreadRadius = binding.spreadRadius.value;
@@ -68,7 +70,7 @@ fetch('http://156.35.98.70:3030/trees_ds/sparql', {
         const longitude = parseFloat(binding.longitude.value);
 
         var age = "";
-        var species = "";
+        var speciesDBR = "";
         var tag ="";
         var speciesType = "";
         var sampleImage = "";
@@ -79,8 +81,8 @@ fetch('http://156.35.98.70:3030/trees_ds/sparql', {
             age = binding.age.value;
         }
         
-        if (binding.species) {
-            species = binding.species.value;
+        if (binding.speciesDBR) {
+            speciesDBR = binding.speciesDBR.value;
         }
 
         if (binding.tag) {
@@ -101,8 +103,9 @@ fetch('http://156.35.98.70:3030/trees_ds/sparql', {
                 <p><strong>Uri:</strong> ${treeURI}</p>
             </hgroup>
             <img src=${sampleImage} alt="${treeLabel}" onerror="this.onerror=null; this.alt='Image not found'">
+            <p><strong>tag:</strong> ${tag}</p>
             <p><strong>Species Type:</strong> ${treeLabel} <a href="${speciesType}">${speciesType}</a></p>
-            <p><strong>Species:</strong> ${species}</p>
+            <p><strong>Species:</strong> ${species} <a href="${speciesDBR}">${speciesDBR}</a></p>
             <p><strong>Age:</strong> ${age}</p>
             <p><strong>Condition:</strong> ${condition}</p>
             <p><strong>Vigour:</strong> ${vigour}</p>

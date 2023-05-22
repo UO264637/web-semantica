@@ -46,6 +46,7 @@ with open('odTrees.csv',"r") as csvfile:
             g.add((treeID, RDF.type, getattr(dbr, row["SPECIES"].replace(" ","_"))))  
         if (row["AGE"] != ""):  
             g.add((treeID, tree.age, rdflib.Literal(row["AGE"])))
+        g.add((treeID, tree.species, rdflib.Literal(row["SPECIES"])))  
         g.add((treeID, tree.description, rdflib.Literal(row["DESCRIPTION"])))
         g.add((treeID, tree.treeSurround, rdflib.Literal(row["TREESURROUND"])))
         g.add((treeID, tree.vigour, rdflib.Literal(row["VIGOUR"])))

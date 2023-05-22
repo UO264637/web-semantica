@@ -18,6 +18,11 @@ tree:TreeShape a sh:NodeShape ;
         sh:in dbr:species
     ] ;
     sh:property [
+        sh:path tree:species ;
+        sh:minCount 1; sh:maxCount 1;
+        sh:datatype xsd:string ;
+    ] ;
+    sh:property [
         sh:path tree:age ;
         sh:maxCount 1;
         sh:datatype xsd:string ;

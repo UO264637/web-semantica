@@ -152,7 +152,7 @@ h3 {
     margin-top: 15px;
 }
 
-article img {
+article > img {
     padding-top: 10px;
     height: auto;
     min-height: 150px;

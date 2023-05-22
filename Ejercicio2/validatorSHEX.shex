@@ -7,8 +7,9 @@ PREFIX tree: <http://example.org/tree/>
 PREFIX wd: <http://www.wikidata.org/entity/> 
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
 
-tree:Tree {
+tree:Tree IRI {
   a @dbr:species ? ;
+  tree:species xsd:string;
   tree:age xsd:string ? ;
   tree:condition xsd:string ;
   tree:description xsd:string ;
@@ -25,6 +26,6 @@ tree:Tree {
   wdt:P31 @wd:speciesType ? 
 }
 
-qudt:units{}
-dbr:species{}
-wd:speciesType{}
+qudt:units IRI{}
+dbr:species IRI{}
+wd:speciesType IRI{}
