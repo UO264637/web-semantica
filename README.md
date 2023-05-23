@@ -9,7 +9,9 @@ Enlace al vídeo: https://youtu.be/_zIebe7ZE5I
  
  He elegido unos datos sobre los árboles de Belfast en .csv y el programa que los pasa a RDF está hecho en Python v3.11.3.
  - Datos elegidos: https://data.europa.eu/data/datasets/belfast-trees?locale=es
- - Ejecución: python Ejercicio1.py
+ - Ejecución: 
+   - pip install rdflib 
+   - python Ejercicio1.py
 
 He incluido los datos en dos almacenes RDF
  - Fuseki: http://156.35.98.70:3030/#/
@@ -21,7 +23,9 @@ He incluido los datos en dos almacenes RDF
  En la carpeta del ejercicio 2 se pueden encontrar los validadores en ShEx y SHACL para los árboles anteriores. También hay un programa en Python que valida automáticamente todos estos datos utilizando la librería pyShEx. Seguí el ejemplo de: https://github.com/hsolbrig/PyShEx/blob/master/notebooks/school_example.ipynb
 
  Es necesario que el archivo output.ttl del ejercicio 1 y validationSHEX.shex se encuentren en el mismo directorio.
-  - Ejecución: python Ejercicio2.py
+  - Ejecución: 
+    - pip install pyshex  
+    - python Ejercicio2.py
   
 ## Ejercicio 3
  En la carpeta del ejercicio 3 se pueden encontrar todas las consultas realizadas en un fichero junto con los datos obtenidos tras su ejecución.
