@@ -151,7 +151,7 @@ const speciesData = {
           <div>
             <h3>${treeURI}</h3>
             <p>Latitude: ${latitude}</p>
-            <p>Latitude: ${longitude}</p>
+            <p>Longitud: ${longitude}</p>
             <a href=tree-details.html?tree=${treeURI}>View Details</a>
           </div>
         `;

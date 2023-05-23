@@ -1,5 +1,7 @@
 # Web Semántica - MIW 2023
 
+Enlace al vídeo: https://youtu.be/_zIebe7ZE5I
+
 ## Ejercicio 1
  En la carpeta del ejercicio 1 se encuentra el código fuente y todos los archivos necesarios para su ejecución (los datos originales odTrees.csv junto con dbrSpecies.txt y wdtSpeciesType.json que contienen las especies de árboles de dbpedia y los identificadores de wikidata respectivamente).
  

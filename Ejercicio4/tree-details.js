@@ -13,7 +13,7 @@ fetch('http://156.35.98.70:3030/trees_ds/sparql', {
     'Content-Type': 'application/x-www-form-urlencoded',
   },
   body: 'query=' + encodeURIComponent(`
-        PREFIX schema: <http://schema.org/>
+		PREFIX schema: <http://schema.org/>
         PREFIX wdt: <http://www.wikidata.org/prop/direct/>
         PREFIX dbr: <http://dbpedia.org/resource/>
         PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
@@ -40,13 +40,14 @@ fetch('http://156.35.98.70:3030/trees_ds/sparql', {
             OPTIONAL {tree:${tree} tree:age ?age}
             OPTIONAL {tree:${tree} a ?speciesDBR}
             OPTIONAL {tree:${tree} tree:tag ?tag}
-            OPTIONAL {tree:${tree} wdt:P31 ?speciesType
-                SERVICE <https://query.wikidata.org/sparql> {
-                    ?speciesType rdfs:label ?label
-                    FILTER(LANG(?label) = "en")
-                    ?speciesType wdt:P18 ?image
-                }
-            }
+  			OPTIONAL {tree:${tree} wdt:P31 ?speciesType}
+  			OPTIONAL {
+            	SERVICE <https://query.wikidata.org/sparql> {
+    				?speciesType rdfs:label ?label
+    				FILTER(LANG(?label) = "en")
+      				OPTIONAL{?speciesType wdt:P18 ?image}
+    			}
+  			}
         }
         GROUP BY ?condition ?species ?description ?diameter ?spreadRadius ?height ?treeSurround ?type ?units ?vigour ?latitude ?longitude ?label ?age ?speciesDBR ?tag ?speciesType
 `),
@@ -88,11 +89,14 @@ fetch('http://156.35.98.70:3030/trees_ds/sparql', {
         if (binding.tag) {
             tag = binding.tag.value;
         }
-
+		
         if (binding.speciesType) {
             speciesType = binding.speciesType.value;
-            sampleImage =binding.sampleImage.value;
             treeLabel = binding.label.value;
+        }
+		
+		if (binding.sampleImage) {
+            sampleImage =binding.sampleImage.value;
         }
 
         // Mostrar los detalles del árbol en la página
