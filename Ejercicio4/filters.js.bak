@@ -1,8 +1,4 @@
 // Creación del mapa
-/*
- * password: patata
- * email: uo264637@uniovi.es
- */
 const map = L.map('map').setView([54.5970, -5.9300], 11);
 var markersLayer = L.layerGroup().addTo(map);
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
